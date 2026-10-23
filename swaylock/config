@@ -1,0 +1,106 @@
+# ============================================================
+# SWAYLOCK
+# ============================================================
+
+# ------------------------------------------------------------
+# WALLPAPER
+# Pon aquí tu imagen.
+# Ejemplo:
+# image=/home/tu_usuario/Pictures/wallpapers/wallpaper.png
+# ------------------------------------------------------------
+
+image=/home/zero/Pictures/Wallpapers/wp-13.png
+
+# Cómo adaptar la imagen a la pantalla.
+scaling=fill
+
+# Color de respaldo si la imagen no puede cargarse.
+color=1d1d1d
+
+
+# ============================================================
+# GENERAL
+# ============================================================
+
+font=JetBrainsMono Nerd Font
+font-size=20
+
+ignore-empty-password
+show-failed-attempts
+
+# Evita que el indicador desaparezca inmediatamente.
+indicator-idle-visible
+
+
+# ============================================================
+# INDICADOR
+# ============================================================
+
+indicator-radius=90
+indicator-thickness=8
+
+# Separadores y líneas invisibles.
+separator-color=00000000
+line-color=00000000
+line-clear-color=00000000
+line-ver-color=00000000
+line-wrong-color=00000000
+
+
+# ============================================================
+# ESTADO NORMAL
+# ============================================================
+
+# Interior negro translúcido.
+inside-color=1d1d1dcc
+
+# Ring magenta.
+ring-color=9219cfff
+
+# Texto.
+text-color=ffffffff
+
+
+# ============================================================
+# TECLAS
+# ============================================================
+
+# Flash al escribir.
+key-hl-color=24b5bfff
+
+# Flash al borrar.
+bs-hl-color=bf249eff
+
+
+# ============================================================
+# PASSWORD BORRADA
+# ============================================================
+
+inside-clear-color=1d1d1dcc
+ring-clear-color=24b5bfff
+text-clear-color=ffffffff
+
+
+# ============================================================
+# VERIFICANDO PASSWORD
+# ============================================================
+
+inside-ver-color=1d1d1dcc
+ring-ver-color=24b5bfff
+text-ver-color=ffffffff
+
+
+# ============================================================
+# PASSWORD INCORRECTA
+# ============================================================
+
+inside-wrong-color=1d1d1dcc
+ring-wrong-color=bf2424ff
+text-wrong-color=ffffffff
+
+
+# ============================================================
+# CAPS LOCK
+# ============================================================
+
+text-caps-lock-color=bf6524ff

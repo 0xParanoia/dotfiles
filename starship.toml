@@ -1,0 +1,28 @@
+# No añadir una línea en blanco al presionar Enter
+add_newline = false
+
+# Estructura del prompt en una sola línea
+format = "$username$hostname $directory$git_branch$git_status$character"
+
+# Configuración de usuario@host
+[username]
+style_user = "bold green"
+style_root = "bold red"
+format = "[$user]($style)"
+show_always = true
+
+[hostname]
+ssh_only = false
+format = "[@$hostname]($style)"
+style = "bold green"
+
+# Configuración de la ruta (Directorio)
+[directory]
+truncation_length = 3
+style = "bold cyan"
+format = "[$path]($style) "
+
+# Configuración del símbolo final (Usa el > de tu Hack Nerd Font)
+[character]
+success_symbol = "[❯](bold magenta)"
+error_symbol = "[❯](bold red)"
